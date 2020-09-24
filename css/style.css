@@ -1,0 +1,26 @@
+body{
+    background-image:url("img/flag.jpg");
+}
+.board td {
+    width: 32px;
+    height: 32px;
+    border: 4px solid black;
+}
+
+.board {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+h1 {
+    color: #F90B6D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0 0 16px;
+    left:50%;
+}
