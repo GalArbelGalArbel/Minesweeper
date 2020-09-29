@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>game</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<h1>The game</h1>
-<body onload="init()">
-    <table class="board"></table>
+<h1>Help Borat escape the jews!</h1>
+
+<body>
+    <div class="levels">
+        <button onclick="chooseLevelEasy()">easy</button>
+            <button onclick="chooseLevelHard()">hard</button>
+            <button onclick="chooseLevelExtreme()">extreme</button>
+
+
+    </div>
+   
+    <div class="tableholder">
+        <table class="board"></table>
+    </div>
+
+
+
     <script src="js/main.js"></script>
 </body>
+
 </html>
